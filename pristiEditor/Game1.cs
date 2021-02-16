@@ -9,6 +9,9 @@ namespace pristiEditor
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+        private string WorldXML = "";
+        
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
