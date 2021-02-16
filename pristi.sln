@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pristi", "pristi.csproj", "{EF5804ED-5A58-4327-9365-4E2302C3CD47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pristi", "pristi.csproj", "{EF5804ED-5A58-4327-9365-4E2302C3CD47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pristiEditor", "pristiEditor\pristiEditor.csproj", "{4BE16AD0-3141-473F-AC92-4428649E4B62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EF5804ED-5A58-4327-9365-4E2302C3CD47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF5804ED-5A58-4327-9365-4E2302C3CD47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF5804ED-5A58-4327-9365-4E2302C3CD47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE16AD0-3141-473F-AC92-4428649E4B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE16AD0-3141-473F-AC92-4428649E4B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE16AD0-3141-473F-AC92-4428649E4B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE16AD0-3141-473F-AC92-4428649E4B62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
