@@ -1,0 +1,2 @@
+# pristi
+Da reel game
