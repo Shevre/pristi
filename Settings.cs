@@ -5,7 +5,7 @@
         public int GetInternalScreenHeight() => m_InternalScreenHeight;
         private int m_InternalScreenWidth = 320;
         public int GetInteralScreenWidth() => m_InternalScreenWidth;
-        private int m_ScreenHeight = 800;
+        private int m_ScreenHeight = 720;
         public int GetScreenHeight() => m_ScreenHeight;
         private int m_ScreenWidth = 1280;
         public int GetScreenWidth() => m_ScreenWidth;
