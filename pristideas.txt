@@ -1,0 +1,47 @@
+﻿-CLUSTERPUNK
+
+
+
+-Dialouge
+-2d sidescrolling
+-Platforming
+-Combat
+-Switching Like Castlevania portrait of ruin
+-Alien(Healer/Stealth), Skeleton(Tank), Robot(DPS)
+-Skeleton used to be zombie
+-Robot chooses who to romance
+-Final boss one who did not romance
+-True final boss if you collect all of something in timeskip after a divorce
+
+-Main enemy is gnomes
+-Leader is leprechaun in disguise (shit disguise)
+
+-All 3 races have been betrayed by the gnomes at seperate gnomes
+
+-Alien changes colour based on environment
+
+-Pristi is world that is being traversed
+
+
+Skeleton name ideas:
+-Bonez
+-Scarlord
+
+Alien name ideas:
+-Alienz
+
+Robot name ideas:
+-43Z
+-R341
+-R341Z
+
+
+Instruments
+-Skeleton/Tuba
+-Alien/Synth
+-Robot/Drum Machine
+
+
+
+
+1 screen = 12x20 tiles
