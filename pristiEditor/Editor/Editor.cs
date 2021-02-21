@@ -87,12 +87,18 @@ namespace pristiEditor
         
 
         public void Draw(SpriteBatch spriteBatch){
-            if (m_DrawGrid){
-                for (int y = -2; y < (m_Bounds.Height/(m_TileSize.Y*m_Scale))+2; y++){
+            if (m_DrawGrid){//Is bad and sucks but it works so is fine
+                for (int y = 0; y < (m_Bounds.Height/(m_TileSize.Y*m_Scale))+2; y++){
                     
-                    for (int x = (y%2==0)? -2:-1; x < (m_Bounds.Width / (m_TileSize.X*m_Scale))+(2*m_Scale); x+=2){
+                    for (int x = (y%2==0)? 0:1; x < (m_Bounds.Width / (m_TileSize.X*m_Scale))+(2*m_Scale); x+=2){
+                        if(m_Offset.X <= 0 && m_Offset.Y <= 0)
                             spriteBatch.FillRectangle(m_WhitePixel, new Rectangle(((int)m_Offset.X) % (int)((m_TileSize.X * m_Scale) * 2) + (int)(x * m_TileSize.X * m_Scale), ((int)m_Offset.Y) % (int)((m_TileSize.Y * m_Scale) * 2) + (int)(y * m_TileSize.Y * m_Scale), (int)(m_TileSize.X * m_Scale), (int)(m_TileSize.Y * m_Scale)), Color.Gray);
-                        
+                        else if(m_Offset.X <= 0)
+                            spriteBatch.FillRectangle(m_WhitePixel, new Rectangle(((int)m_Offset.X) % (int)((m_TileSize.X * m_Scale) * 2) + (int)(x * m_TileSize.X * m_Scale), ((int)m_Offset.Y)/* % (int)((m_TileSize.Y * m_Scale) * 2)*/ + (int)(y * m_TileSize.Y * m_Scale), (int)(m_TileSize.X * m_Scale), (int)(m_TileSize.Y * m_Scale)), Color.Gray);
+                        else if (m_Offset.Y <= 0)
+                            spriteBatch.FillRectangle(m_WhitePixel, new Rectangle(((int)m_Offset.X)/* % (int)((m_TileSize.X * m_Scale) * 2)*/ + (int)(x * m_TileSize.X * m_Scale), ((int)m_Offset.Y) % (int)((m_TileSize.Y * m_Scale) * 2) + (int)(y * m_TileSize.Y * m_Scale), (int)(m_TileSize.X * m_Scale), (int)(m_TileSize.Y * m_Scale)), Color.Gray);
+                        else
+                            spriteBatch.FillRectangle(m_WhitePixel, new Rectangle(((int)m_Offset.X)/* % (int)((m_TileSize.X * m_Scale) * 2)*/ + (int)(x * m_TileSize.X * m_Scale), ((int)m_Offset.Y) /*% (int)((m_TileSize.Y * m_Scale) * 2)*/ + (int)(y * m_TileSize.Y * m_Scale), (int)(m_TileSize.X * m_Scale), (int)(m_TileSize.Y * m_Scale)), Color.Gray);
                     }
                 }
             }
