@@ -50,8 +50,8 @@ namespace pristi.Graphics
             return new Rectangle(x, y, m_TileWidth, m_TileHeight);
         }
 
-        public void DrawTile(SpriteBatch spritebatch,int tileID,Vector2 pos ){
-            if (tileID != 0) spritebatch.Draw(m_TilesetTexture,pos,GetSrcRect(tileID),Color.White);
+        public void DrawTile(SpriteBatch spritebatch,int tileID,Vector2 pos ,float scale = 1f){
+            if (tileID != 0) spritebatch.Draw(m_TilesetTexture,pos,GetSrcRect(tileID),Color.White,0f,new Vector2(0,0),scale,SpriteEffects.None,0f);
         }
         public void DrawTile(SpriteBatch spritebatch, int tileID, Vector2 pos,Color color){
             if (tileID != 0) spritebatch.Draw(m_TilesetTexture, pos, GetSrcRect(tileID), color);

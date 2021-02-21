@@ -1,4 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Settings>
-  <ScreenSize>1600,900</ScreenSize>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <worldXMLLocation>C:\dev\pristi\Content\Data\World\World.xml</worldXMLLocation>
+  <GameContentLocation>C:\dev\pristi\bin\Debug\netcoreapp3.1\Content</GameContentLocation>
+  <BaseRoomFolder>C:\dev\pristi\</BaseRoomFolder>
 </Settings>

@@ -12,6 +12,8 @@ namespace pristi.World
 {
     class Tilemap{
         private int m_Width, m_Height;
+        public int GetWidth() => m_Width;
+        public int GetHeight() => m_Height;
         private int[,] m_TileArray;
         private Tileset m_Tileset;
 
@@ -44,10 +46,11 @@ namespace pristi.World
             Console.WriteLine("tilemap loaded.");
         }
 
-        public void Draw(SpriteBatch spriteBatch){
+
+        public void Draw(SpriteBatch spriteBatch,Vector2 pos,float scale = 1f){
             for (int y = 0; y < m_Height; y++) {
                 for (int x = 0; x < m_Width; x++){
-                    m_Tileset.DrawTile(spriteBatch, m_TileArray[y, x],new Vector2(x*m_Tileset.GetTileWidth(),y*m_Tileset.GetTileHeight()));
+                    m_Tileset.DrawTile(spriteBatch, m_TileArray[y, x],pos + new Vector2(x*m_Tileset.GetTileWidth()*scale,y*m_Tileset.GetTileHeight()*scale),scale);
                 }
             }
         }

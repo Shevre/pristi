@@ -43,6 +43,8 @@ namespace pristi.World
             m_Background.Update(gameTime);
         }
 
+
+
         public void DrawPreEntities(SpriteBatch spriteBatch){
             m_Background.Draw(spriteBatch);
             foreach (Tilemap tilemap in m_PreEntityTilemaps){
