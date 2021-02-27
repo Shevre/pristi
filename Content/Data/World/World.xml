@@ -4,11 +4,11 @@
   <BlockSize>20,12</BlockSize>
   <RoomPositions>
     <Room>
-      <Position>0,0</Position>
+      <Position>0,200</Position>
       <XmlLocation>Content/Data/World/Rooms/TestRoom.xml</XmlLocation>
     </Room>
     <Room>
-      <Position>20,0</Position>
+      <Position>20,200</Position>
       <XmlLocation>Content/Data/World/Rooms/TestRoom2.xml</XmlLocation>
     </Room>
   </RoomPositions>

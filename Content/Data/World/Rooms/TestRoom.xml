@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Room>
+  <Name>TestRoom1</Name>
   <EntityLayer>1</EntityLayer>
   <Background>
     <Name>Backgrounds/testRoom</Name>
