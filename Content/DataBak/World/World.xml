@@ -2,14 +2,14 @@
 <World>
   <TileSize>16,16</TileSize>
   <BlockSize>20,12</BlockSize>
-  <RoomPositions>
+  <Rooms>
     <Room>
-      <Position>200,0</Position>
-      <XmlLocation>Content/Data/World/Rooms/TestRoom.xml</XmlLocation>
+      <Position>0,200</Position>
+      <XmlLocation>TestRoom.xml</XmlLocation>
     </Room>
     <Room>
-      <Position>200,20</Position>
-      <XmlLocation>Content/Data/World/Rooms/TestRoom2.xml</XmlLocation>
+      <Position>20,200</Position>
+      <XmlLocation>TestRoom2.xml</XmlLocation>
     </Room>
-  </RoomPositions>
+  </Rooms>
 </World>

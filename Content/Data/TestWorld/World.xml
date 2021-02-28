@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<World>
+  <TileSize>16,16</TileSize>
+  <BlockSize>20,12</BlockSize>
+  <Rooms>
+    <Room>
+      <Position>0,976</Position>
+      <XmlLocation>testmap.xml</XmlLocation>
+    </Room>
+    <Room>
+      <Position>320,976</Position>
+      <XmlLocation>testmap2.xml</XmlLocation>
+    </Room>
+    <Room>
+      <Position>640,784</Position>
+      <XmlLocation>testmap3.xml</XmlLocation>
+    </Room>
+  </Rooms>
+</World>

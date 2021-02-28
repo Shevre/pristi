@@ -1,4 +1,5 @@
-﻿namespace pristi
+﻿using Microsoft.Xna.Framework;
+namespace pristi
 {
     public class Settings{
         private int m_InternalScreenHeight = 180;
@@ -11,11 +12,16 @@
         public int GetScreenWidth() => m_ScreenWidth;
         private bool m_FullScreen = false;
         public bool IsFullscreen() => m_FullScreen;
+        
 
-
+        
+        
         public Settings(){
 
         }
+
+        
+
     }
 
     public static class StaticSettings

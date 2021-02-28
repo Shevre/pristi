@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Room>
+  <Name>TestRoom1</Name>
   <EntityLayer>1</EntityLayer>
   <Background>
     <Name>Backgrounds/testRoom</Name>
@@ -10,7 +11,7 @@
   </Background>
   <Tilemaps>
     <Tilemap>
-      <Tileset>Tilesets/testRoomVar</Tileset>
+      <Tileset>Tilesets/testRoom</Tileset>
       <TileArray>
         <Row>8,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8</Row>
         <Row>8,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8</Row>
@@ -44,4 +45,18 @@
       </TileArray>
     </Tilemap>
   </Tilemaps>
+  <Entities>
+    <Entity>
+      <Name>Sign1</Name>
+      <Type>interactable_Sign</Type>
+      <Data>Yo</Data>
+      <Position></Position>
+    </Entity>
+  </Entities>
+  <CollisionData>
+    <Polygon>
+      <Position></Position>
+      <Verts></Verts>
+    </Polygon>
+  </CollisionData>
 </Room>

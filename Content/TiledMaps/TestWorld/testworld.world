@@ -1,0 +1,27 @@
+{
+    "maps": [
+        {
+            "fileName": "testmap.tmx",
+            "height": 192,
+            "width": 320,
+            "x": 0,
+            "y": 976
+        },
+        {
+            "fileName": "testmap2.tmx",
+            "height": 192,
+            "width": 320,
+            "x": 320,
+            "y": 976
+        },
+        {
+            "fileName": "testmap3.tmx",
+            "height": 384,
+            "width": 640,
+            "x": 640,
+            "y": 784
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}

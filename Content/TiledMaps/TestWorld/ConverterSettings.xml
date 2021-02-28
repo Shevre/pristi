@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+  <WorldFile>testworld.world</WorldFile>
+  <MapLocation></MapLocation>
+  <WorldSaveLocation>C:\dev\pristi\Content\Data\TestWorld\</WorldSaveLocation>
+  <MapSaveLocation>C:\dev\pristi\Content\Data\TestWorld\Rooms\</MapSaveLocation>
+</Settings>

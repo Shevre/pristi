@@ -13,8 +13,11 @@
     <OutputPath>bin\Debug\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="Content\TiledMaps\**" />
     <Compile Remove="pristiEditor\**" />
+    <EmbeddedResource Remove="Content\TiledMaps\**" />
     <EmbeddedResource Remove="pristiEditor\**" />
+    <None Remove="Content\TiledMaps\**" />
     <None Remove="pristiEditor\**" />
   </ItemGroup>
   <ItemGroup>
@@ -34,13 +37,31 @@
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
     <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.0.1641" />
+    <PackageReference Include="MonoGame.Primitives2D" Version="1.1.1">
+      <NoWarn>NU1701</NoWarn>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <None Update="Content\Data\TestWorld\Rooms\testmap.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\Data\TestWorld\Rooms\testmap2.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\Data\TestWorld\Rooms\testmap3.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\Data\TestWorld\World.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Content\Data\World\Rooms\TestRoom2.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Content\Data\World\Rooms\TestRoom.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\Data\TestWorld\Rooms\" />
   </ItemGroup>
 </Project>

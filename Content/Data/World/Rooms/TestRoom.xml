@@ -45,4 +45,18 @@
       </TileArray>
     </Tilemap>
   </Tilemaps>
+  <Entities>
+    <Entity>
+      <Name>Sign1</Name>
+      <Type>interactable_Sign</Type>
+      <Data>Yo</Data>
+      <Position></Position>
+    </Entity>
+  </Entities>
+  <CollisionData>
+    <Polygon>
+      <Position></Position>
+      <Verts></Verts>
+    </Polygon>
+  </CollisionData>
 </Room>
